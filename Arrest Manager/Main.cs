@@ -30,19 +30,19 @@ namespace Arrest_Manager
         public override void Initialize()
         {
             //Event handler for detecting if the player goes on duty
-            Game.LogTrivial("Arrest Manager " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125, loaded successfully!");
+            Game.LogTrivial("Arrest Manager " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", by Albo1125 updated by Aschtar for LSPDFR 0.4.9");
             
             Game.LogTrivial("Please go on duty to start Arrest Manager.");
 
             Functions.OnOnDutyStateChanged += Functions_OnOnDutyStateChanged;
 
         }
-        internal static Version Albo1125CommonVer = new Version("6.6.3.0");
-        internal static Version MadeForGTAVersion = new Version("1.0.1604.1");
+        internal static Version Albo1125CommonVer = new Version("6.6.4.0");
+        internal static Version MadeForGTAVersion = new Version("1.0.2699.0");
         internal static float MinimumRPHVersion = 0.51f;
         internal static string[] AudioFilesToCheckFor = new string[] { "LSPDFR/audio/scanner/Arrest Manager Audio/Camera.wav" };
-        internal static Version RAGENativeUIVersion = new Version("1.6.3.0");
-        internal static Version MadeForLSPDFRVersion = new Version("0.4.2");
+        internal static Version RAGENativeUIVersion = new Version("1.9");
+        internal static Version MadeForLSPDFRVersion = new Version("0.4.9");
         internal static string[] OtherFilesToCheckFor = new string[] { };
 
         internal static string FileID = "8107";
